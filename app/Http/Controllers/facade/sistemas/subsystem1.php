@@ -1,0 +1,16 @@
+<?php
+namespace App\Http\Controllers\facade\sistemas;
+
+class subsystem1{
+    public function operation1(): string
+    {
+        return "Subsystem1: Ready!\n";
+    }
+
+    // ...
+
+    public function operationN(): string
+    {
+        return "Subsystem1: Go!\n";
+    }
+}
